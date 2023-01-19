@@ -1,0 +1,33 @@
+{
+    "layer_one": {
+		"0": {
+			"Class": "Square",
+			"pos": [20, 20],
+			"size": [50, 20],
+            "color": [255, 255, 255],
+			"id": 0
+		},
+		"1": {
+			"Class": "Button",
+			"pos": [20, 20],
+			"size": [50, 20],
+            "callback": "func",
+			"args": ["hello"],
+			"id": 1,
+			"repeat": true
+		},
+		"2": {
+			"Class": "Background",
+			"color": [16, 20, 117]
+		},
+		"3": {
+			"Class": "Text",
+			"pos": [20, 20],
+			"text": "0",
+			"color": [0,0,0],
+			"id": 3,
+			"fontSize": 20,
+			"font": "Arial"
+		}
+    }
+}
